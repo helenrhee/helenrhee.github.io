@@ -42,8 +42,8 @@ img {
     margin: 0 2.5px;
     transition: 0.3s;
     border-color: #FDFDF3;
-    border-width: 8px;
-    border-style: ridge;
+    border-width: 6px;
+    border-style: double;
     margin-top: 12px;
     vertical-align: middle;
 }
