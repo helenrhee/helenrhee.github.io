@@ -23,7 +23,7 @@
   margin-top: 20px;
   display: flex;
   flex-direction: row;
-  border-style: outset;
+  border-style: double;
   border-color: #AEAEAE;
   border-width: 5px;
 }
