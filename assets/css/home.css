@@ -1,0 +1,32 @@
+#objects {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+}
+
+
+#objects div:hover {
+  transform: rotate(360deg);
+  transition-duration: 200ms;
+}
+
+#friends img{
+  width: 240px;
+  margin-top: 72px;
+  margin-left: 80px;
+  transform: rotate(100deg);
+}
+
+#about img{
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 120px;
+  transform: rotate(-10deg);
+}
+
+#thoughts img{
+  height: 200px;
+  margin-top: 160px;
+  margin-left: 80px;
+  transform: rotate(50deg);
+}

@@ -1,0 +1,13 @@
+body {
+  background-image: url("../img/desk.png");
+  background-repeat: no-repeat;
+  background-position: 0px 200px;
+  background-attachment: fixed;
+  font-family: "Wildera";
+}
+
+#header {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 48px;
+}

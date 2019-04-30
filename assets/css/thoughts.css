@@ -1,0 +1,100 @@
+body {
+  font-family: "SUNN";
+  font-size: 72px;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: gray;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes gray {
+  from {
+    color: #000000;
+    font-size: 74px;
+  }
+  to {
+  color: #D6D5D5;
+  font-size: 72px;}
+}
+
+@keyframes grow {
+  0% {
+    color: #BCBCBC;
+    transform: scale(0.1);
+  }
+  25% {
+    color: #000000;
+    transform: scale(1);
+  }
+  100% {
+    color: #000000;
+    transform: scale(1);
+  }
+}
+
+#oval1 {
+  position: absolute;
+  left: 300px;
+  bottom: 150px;
+}
+
+#oval2 {
+  position: absolute;
+  left: 400px;
+  bottom: 180px;
+}
+
+#oval3 {
+  position: absolute;
+  left: 640px;
+  top: 160px;
+}
+
+#bubble {
+  position: absolute;
+  right: 60px;
+}
+
+
+#oval1 img{
+  width: 48px;
+  animation-name: grow;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 0.3);
+  animation-iteration-count: infinite;
+}
+
+#oval2 img{
+  width: 76px;
+  animation-delay: 450ms;
+  animation-name: grow;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 0.3);
+  animation-iteration-count: infinite;
+}
+
+#oval3 img{
+  width: 100px;
+  animation-delay: 900ms;
+  animation-name: grow;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 0.3);
+  animation-iteration-count: infinite;
+}
+
+#bubble img{
+  width: 360px;
+  animation-delay: 1350ms;
+  animation-name: grow;
+  animation-duration: 2.5s;
+  animation-timing-function: cubic-bezier(0.4, 0.8, 0.6, 0.3);
+  animation-iteration-count: infinite;
+}
