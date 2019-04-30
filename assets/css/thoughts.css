@@ -1,3 +1,20 @@
+#arrow img {
+  width: 120px;
+  opacity: 0.5;
+}
+
+#arrow {
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+
+#arrow img:hover {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+
 body {
   font-family: "SUNN";
   font-size: 72px;

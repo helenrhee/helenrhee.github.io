@@ -1,3 +1,19 @@
+#arrow img {
+  width: 120px;
+  opacity: 0.5;
+}
+
+#arrow {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#arrow img:hover {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
 #content-box {
   width: 700px;
   height: 360px;
@@ -23,9 +39,11 @@
   font-family: "Karla";
   position: absolute;
   width: 400px;
-  height: 370px;
+  height: 350px;
   right: 0;
   transform: translateX(-75%);
+  overflow-y: scroll;
+
 }
 
 #contact {
